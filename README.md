@@ -1,16 +1,38 @@
-# React + Vite
+🛒 Add to Cart Functionality – React JS
+📌 Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project showcases a clean and simple Add to Cart functionality using React JS.
+Users can browse products, add them to the cart, update quantities, and remove items — all with real-time UI updates.
 
-Currently, two official plugins are available:
+The project demonstrates how React components, hooks, and state management work together to build an interactive shopping experience.
+🌱 My Learnings
+✅ 1. Component-Based Architecture
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I learned how to break down the UI into reusable components like ProductList, ProductCard, and Cart, making the code clean, organized, and scalable.
 
-## React Compiler
+✅ 2. State Management with React Hooks
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Using useState for cart data and useEffect for UI updates helped me understand how React efficiently handles dynamic state and re-renders.
 
-## Expanding the ESLint configuration
+✅ 3. Handling Dynamic Cart Logic
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I implemented essential cart operations such as:
+
+Adding products
+
+Updating quantities
+
+Avoiding duplicates
+
+Removing items
+This improved my understanding of handling complex UI states in real applications.
+
+✅ 4. Props & Component Communication
+
+Passing data and functions between components taught me how React components communicate using props, enabling smooth flow of data across the app.
+
+✅ 5. Real-Time UI Updates
+
+Working with reactive data helped me understand how React instantly updates the interface based on state changes — making the cart feel dynamic and user-friendly.
+
+<img width="1904" height="893" alt="image" src="https://github.com/user-attachments/assets/a1a2e157-7f8e-498b-8870-b9eed17e1fa1" />
